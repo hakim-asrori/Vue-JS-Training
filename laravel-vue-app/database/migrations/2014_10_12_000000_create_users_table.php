@@ -25,6 +25,7 @@ return new class extends Migration
             $table->uuid('id_role')->default(3);
             $table->uuid('id_category')->default(1);
             $table->integer('skor')->nullable();
+            $table->rememberToken();
             $table->timestamps();
         });
     }

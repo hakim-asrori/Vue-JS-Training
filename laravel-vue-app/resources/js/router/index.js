@@ -3,13 +3,13 @@ import VueRouter from "vue-router";
 
 Vue.use(VueRouter);
 
-import Login from "../pages/auth/Login.vue";
+import Home from "../pages/Home.vue";
 
 const routes = [
     {
-        name: "Login",
-        path: "/",
-        component: Login
+        name: "Home",
+        path: '/home',
+        component: Home
     }
 ];
 
